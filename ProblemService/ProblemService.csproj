@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD18C076-922A-4464-AADF-A9C8D8568E02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProblemService</RootNamespace>
+    <AssemblyName>ProblemService</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Constants.cs" />
+    <Compile Include="Models\Problem566.cs" />
+    <Compile Include="Models\Problem590.cs" />
+    <Compile Include="Problems\Problem.cs" />
+    <Compile Include="Problems\Problem_10.cs" />
+    <Compile Include="Problems\Problem_11.cs" />
+    <Compile Include="Problems\Problem_116.cs" />
+    <Compile Include="Problems\Problem_117.cs" />
+    <Compile Include="Problems\Problem_12.cs" />
+    <Compile Include="Problems\Problem_13.cs" />
+    <Compile Include="Problems\Problem_14.cs" />
+    <Compile Include="Problems\Problem_15.cs" />
+    <Compile Include="Problems\Problem_16.cs" />
+    <Compile Include="Problems\Problem_17.cs" />
+    <Compile Include="Problems\Problem_18.cs" />
+    <Compile Include="Problems\Problem_184.cs" />
+    <Compile Include="Problems\Problem_19.cs" />
+    <Compile Include="Problems\Problem_20.cs" />
+    <Compile Include="Problems\Problem_207.cs" />
+    <Compile Include="Problems\Problem_21.cs" />
+    <Compile Include="Problems\Problem_22.cs" />
+    <Compile Include="Problems\Problem_23.cs" />
+    <Compile Include="Problems\Problem_24.cs" />
+    <Compile Include="Problems\Problem_241.cs" />
+    <Compile Include="Problems\Problem_25.cs" />
+    <Compile Include="Problems\Problem_26.cs" />
+    <Compile Include="Problems\Problem_27.cs" />
+    <Compile Include="Problems\Problem_271.cs" />
+    <Compile Include="Problems\Problem_272.cs" />
+    <Compile Include="Problems\Problem_275.cs" />
+    <Compile Include="Problems\Problem_276.cs" />
+    <Compile Include="Problems\Problem_28.cs" />
+    <Compile Include="Problems\Problem_29.cs" />
+    <Compile Include="Problems\Problem_30.cs" />
+    <Compile Include="Problems\Problem_31.cs" />
+    <Compile Include="Problems\Problem_32.cs" />
+    <Compile Include="Problems\Problem_328.cs" />
+    <Compile Include="Problems\Problem_33.cs" />
+    <Compile Include="Problems\Problem_34.cs" />
+    <Compile Include="Problems\Problem_35.cs" />
+    <Compile Include="Problems\Problem_357.cs" />
+    <Compile Include="Problems\Problem_36.cs" />
+    <Compile Include="Problems\Problem_37.cs" />
+    <Compile Include="Problems\Problem_38.cs" />
+    <Compile Include="Problems\Problem_39.cs" />
+    <Compile Include="Problems\Problem_40.cs" />
+    <Compile Include="Problems\Problem_401.cs" />
+    <Compile Include="Problems\Problem_41.cs" />
+    <Compile Include="Problems\Problem_415.cs" />
+    <Compile Include="Problems\Problem_42.cs" />
+    <Compile Include="Problems\Problem_43.cs" />
+    <Compile Include="Problems\Problem_432.cs" />
+    <Compile Include="Problems\Problem_44.cs" />
+    <Compile Include="Problems\Problem_45.cs" />
+    <Compile Include="Problems\Problem_458.cs" />
+    <Compile Include="Problems\Problem_46.cs" />
+    <Compile Include="Problems\Problem_461.cs" />
+    <Compile Include="Problems\Problem_467.cs" />
+    <Compile Include="Problems\Problem_47.cs" />
+    <Compile Include="Problems\Problem_48.cs" />
+    <Compile Include="Problems\Problem_482.cs" />
+    <Compile Include="Problems\Problem_483.cs" />
+    <Compile Include="Problems\Problem_484.cs" />
+    <Compile Include="Problems\Problem_49.cs" />
+    <Compile Include="Problems\Problem_50.cs" />
+    <Compile Include="Problems\Problem_500.cs" />
+    <Compile Include="Problems\Problem_501.cs" />
+    <Compile Include="Problems\Problem_504.cs" />
+    <Compile Include="Problems\Problem_51.cs" />
+    <Compile Include="Problems\Problem_52.cs" />
+    <Compile Include="Problems\Problem_53.cs" />
+    <Compile Include="Problems\Problem_55.cs" />
+    <Compile Include="Problems\Problem_56.cs" />
+    <Compile Include="Problems\Problem_566.cs" />
+    <Compile Include="Problems\Problem_569.cs" />
+    <Compile Include="Problems\Problem_57.cs" />
+    <Compile Include="Problems\Problem_574.cs" />
+    <Compile Include="Problems\Problem_576.cs" />
+    <Compile Include="Problems\Problem_58.cs" />
+    <Compile Include="Problems\Problem_59.cs" />
+    <Compile Include="Problems\Problem_590.cs" />
+    <Compile Include="Problems\Problem_60.cs" />
+    <Compile Include="Problems\Problem_604.cs" />
+    <Compile Include="Problems\Problem_61.cs" />
+    <Compile Include="Problems\Problem_62.cs" />
+    <Compile Include="Problems\Problem_63.cs" />
+    <Compile Include="Problems\Problem_64.cs" />
+    <Compile Include="Problems\Problem_8.cs" />
+    <Compile Include="Problems\Problem_9.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Constants\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorService\MathService.csproj">
+      <Project>{b0a7a248-79e9-4b8b-9090-e5e9931ca464}</Project>
+      <Name>MathService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
